@@ -47,3 +47,20 @@
 ### Øvelse 3:
 - Fordi at selve optællingen skal ske på klientens side for ellers virker det ikke
 - Fordi den indeholder noget dynamisk der kræver bruger klik
+
+# Opgave 3
+
+### Øvelse 1:
+- Ja
+
+### Øvelse 2:
+- Den er en midlertidig side/component for at hente den dynamiske data
+- Loading page er en del af den statiske skal fordi den ændrer sig ikke
+
+### Øvelse 3:
+- Den ændrer sig ikke med det samme fact da det er chached
+- Ja det gør den så chachen reloader hvert minut
+
+### Øvelse 4:
+- Det er på grund af at console ændrer sig når den bruges på serveren istedet for clienten da server console ligger i serverens terminal
+- Den ene gemmer tingne på serveren og den anden gør det på en extern API
